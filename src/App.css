@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+body {
+  overflow: hidden;
+}
+.Container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.Flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.Content-container {
+  height: 100%;
+}
+.Text-container {
+  font-family: 'Zilla Slab', serif;
+  margin: 60px;
+  white-space: nowrap;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Text-container h1 {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 80px;
+  margin: 10px;
+}
+.Text-container p, h3 {
+  font-size: 50px;
+  font-weight: normal;
+  margin: 10px;
+}
+.Social {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+}
+.Social-icon {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*Left content*/
+.Left {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 50%;
+  background-color: #ffffff;
+  color: #282c34;
+  
+}
+.Left h1 {
+  margin-left: 0px;
+}
+.Linkedin {
+  width: 50%;
+  justify-content: flex-end;
 }
 
-.App-link {
-  color: #61dafb;
+/*Left animation*/
+.Left-animation {
+  position: absolute;
+  height: 450px;
+  width: 350px;
+}
+.Photo {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: -150%;
+  width: 250px;
+  height: 250px;
+}
+.More-left {
+  display: block;
+  position: absolute;
+  margin-top: 110%;
+  margin-left: -40%;
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+}
+.Blue {
+  display: block;
+  position: absolute;
+  margin-top: 110%;
+  margin-left: -40%;
+  opacity: 0;
+  transition-duration: 1s;
+  width: 40px;
+  height: 40px;
+}
+.Blue:hover {
+  opacity: 1;
+  transition-duration: 1s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Right animation*/
+.Right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  background-color: #282c34;
+  color: #ececec;
+}
+.Dark-mode-icon {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+.Dark-mode {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 50%;
+  top: 0px;
+}
+.Github {
+  width: 50%;
+  justify-content: flex-start;
 }
