@@ -50,9 +50,8 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  background-color: #ffffff;
-  color: #282c34;
-  
+  background-color: #ececec;
+  color: #282c34; 
 }
 .Left h1 {
   margin-left: 0px;
@@ -60,6 +59,9 @@ body {
 .Linkedin {
   width: 50%;
   justify-content: flex-end;
+}
+.Linkedin-icon {
+  color: #282c34;
 }
 
 /*Left animation*/
@@ -83,23 +85,15 @@ body {
   opacity: 0;
   width: 40px;
   height: 40px;
+  color: #282c34;
 }
-.Blue {
-  display: block;
-  position: absolute;
-  margin-top: 110%;
-  margin-left: -40%;
-  opacity: 0;
-  transition-duration: 1s;
-  width: 40px;
-  height: 40px;
-}
-.Blue:hover {
+.More-left:hover {
   opacity: 1;
+  color: #61DAFB;
   transition-duration: 1s;
 }
 
-/*Right animation*/
+/*Right*/
 .Right {
   display: flex;
   flex-direction: column;
@@ -112,6 +106,7 @@ body {
   width: 30px;
   height: 30px;
   margin: 20px;
+  color: #ECECEC;
 }
 .Dark-mode {
   display: flex;
@@ -122,5 +117,38 @@ body {
 }
 .Github {
   width: 50%;
-  justify-content: flex-start;
+}
+
+/*Right animation*/
+.Right-animation {
+  position: absolute;
+  height: 450px;
+  width: 350px;
+  right: 0px;
+}
+.More-right{
+  display: block;
+  position: absolute;
+  transform: rotateY(180deg);
+  margin-top: 110%;
+  margin-left: 72%;
+  opacity: 0;
+  transition-duration: 1s;
+  width: 40px;
+  height: 40px;
+  z-index: 300;
+  color: #ECECEC;
+}
+.More-right:hover {
+  opacity: 1;
+  color: #61DAFB;
+  transition-duration: 1s;
+}
+.Suport-right {
+  display: none;
+  position: absolute;
+  width: 600px;
+  height: 300px;
+  margin-top: 70%;
+  margin-left: -110%;
 }
