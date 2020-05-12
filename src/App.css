@@ -43,6 +43,10 @@ body {
   height: 30px;
   margin: 20px;
 }
+.Social-icon:hover {
+  color: #61DAFB;
+  transition-duration: 1s;
+}
 
 /*Left content*/
 .Left {
@@ -61,7 +65,12 @@ body {
   justify-content: flex-end;
 }
 .Linkedin-icon {
+  display: block;
   color: #282c34;
+}
+.Linkedin-icon-dark {
+  display: none;
+  color: #ececec;
 }
 
 /*Left animation*/
@@ -88,7 +97,20 @@ body {
   color: #282c34;
 }
 .More-left:hover {
-  opacity: 1;
+  color: #61DAFB;
+  transition-duration: 1s;
+}
+.More-left-dark {
+  display: none;
+  position: absolute;
+  margin-top: 110%;
+  margin-left: -40%;
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+  color: #ececec;
+}
+.More-left-dark:hover {
   color: #61DAFB;
   transition-duration: 1s;
 }
@@ -109,14 +131,25 @@ body {
   color: #ECECEC;
 }
 .Dark-mode {
-  display: flex;
-  justify-content: flex-end;
+  z-index: 10;
   position: absolute;
-  width: 50%;
+  right: 0px;
   top: 0px;
+}
+#Dark-on {
+  display: block;
+}
+#Dark-off {
+  display: none;
 }
 .Github {
   width: 50%;
+}
+.Github a {
+  margin-bottom: -4px;
+}
+.Github-icon {
+  color: #ECECEC;
 }
 
 /*Right animation*/
