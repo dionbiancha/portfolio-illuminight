@@ -89,6 +89,7 @@ body {
 .More-left {
   display: block;
   position: absolute;
+  transform: rotateY(180deg);
   margin-top: 110%;
   margin-left: -40%;
   opacity: 0;

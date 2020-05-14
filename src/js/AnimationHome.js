@@ -1,13 +1,11 @@
 export function leftOnAnimation() {
-  document.getElementById("Photo").style.marginLeft = '15px';
-  document.getElementById("Photo").style.transitionDuration = '1s';
   document.getElementById("More-left").style.opacity = '1';
-  document.getElementById("More-left").style.marginLeft = '85%';
+  document.getElementById("More-left").style.marginLeft = '160px';
   document.getElementById("More-left").style.transitionDuration = '1s';
   document.getElementById("More-left-dark").style.opacity = '1';
-  document.getElementById("More-left-dark").style.marginLeft = '85%';
+  document.getElementById("More-left-dark").style.marginLeft = '160px';
   document.getElementById("More-left-dark").style.transitionDuration = '1s';
-  document.getElementById("Text-left").style.marginLeft = '280px';
+  document.getElementById("Text-left").style.marginLeft = '150px';
   document.getElementById("Text-left").style.transitionDuration = '1s';
   document.getElementById("Left").style.width = '70%';
   document.getElementById("Left").style.transitionDuration = '1s';
@@ -21,8 +19,6 @@ export function leftOnAnimation() {
   document.getElementById("Linkedin").style.opacity = '0';
 }
 export function leftOffAnimation() {
-  document.getElementById("Photo").style.marginLeft = '-150%';
-  document.getElementById("Photo").style.transitionDuration = '1s';
   document.getElementById("More-left").style.opacity = '0';
   document.getElementById("More-left").style.marginLeft = '-40%';
   document.getElementById("More-left").style.transitionDuration = '1s';

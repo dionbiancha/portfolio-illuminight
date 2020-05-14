@@ -7,7 +7,6 @@ import { MdMore } from 'react-icons/md';
 import { BsMoon } from 'react-icons/bs';
 import { IoMdSunny } from 'react-icons/io';
 
-import photo from './images/photo.png';
 import { 
   leftOnAnimation, 
   leftOffAnimation,
@@ -31,7 +30,6 @@ class App extends Component {
               onMouseEnter={leftOnAnimation}
               onMouseLeave={leftOffAnimation}
             >
-              <img id="Photo" className="Photo" src={photo} />
               <MdMore id="More-left" className="More-left"/>
               <MdMore id="More-left-dark" className="More-left-dark"/>
             </div>
