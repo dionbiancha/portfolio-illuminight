@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import { 
   FaLinkedinIn,
   FaGithubAlt  
@@ -14,7 +15,7 @@ import {
   rightOffAnimation,
 } from '../js/AnimationHome';
 import { onDarkTheme, offDarkTheme } from '../js/DarkTheme';
-import '../App.css';
+import '../css/Home.css';
 
 class Home extends Component {
   render() {
@@ -30,8 +31,10 @@ class Home extends Component {
               onMouseEnter={leftOnAnimation}
               onMouseLeave={leftOffAnimation}
             >
-              <MdMore id="More-left" className="More-left"/>
-              <MdMore id="More-left-dark" className="More-left-dark"/>
+              <Link to="/about">
+                <MdMore id="More-left" className="More-left"/>
+                <MdMore id="More-left-dark" className="More-left-dark"/>
+                </Link>
             </div>
             <div id="Text-left" className="Text-container">
               <p>Olá, eu me chamo</p>

@@ -1,6 +1,7 @@
 export function onDarkTheme() {
   document.getElementById("Left").style.backgroundColor = '#20232A';
   document.getElementById("Text-left").style.color = '#ECECEC';
+  document.getElementById("Text-right").style.color = '#ECECEC';
   document.getElementById("Left").style.transitionDuration = '1s';
   document.getElementById("Dark-on").style.display = 'none';
   document.getElementById("Dark-off").style.display = 'block'; 
@@ -11,7 +12,7 @@ export function onDarkTheme() {
 }
 
 export function offDarkTheme() {
-  document.getElementById("Left").style.backgroundColor = '#ECECEC';
+  document.getElementById("Left").style.backgroundColor = '#FFFFFF';
   document.getElementById("Text-left").style.color = '#282c34';
   document.getElementById("Left").style.transitionDuration = '1s';
   document.getElementById("Dark-on").style.display = 'block';

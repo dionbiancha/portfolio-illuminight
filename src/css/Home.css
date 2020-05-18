@@ -54,7 +54,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 50%;
-  background-color: #ececec;
+  background-color: #ffffff;
   color: #282c34; 
 }
 .Left h1 {
@@ -70,7 +70,7 @@ body {
 }
 .Linkedin-icon-dark {
   display: none;
-  color: #ececec;
+  color: #ECECEC;
 }
 
 /*Left animation*/
@@ -78,13 +78,6 @@ body {
   position: absolute;
   height: 450px;
   width: 350px;
-}
-.Photo {
-  position: absolute;
-  margin-top: 30%;
-  margin-left: -150%;
-  width: 250px;
-  height: 250px;
 }
 .More-left {
   display: block;
@@ -109,7 +102,7 @@ body {
   opacity: 0;
   width: 40px;
   height: 40px;
-  color: #ececec;
+  color: #ECECEC;
 }
 .More-left-dark:hover {
   color: #61DAFB;
@@ -123,7 +116,7 @@ body {
   justify-content: center;
   width: 50%;
   background-color: #282c34;
-  color: #ececec;
+  color: #ECECEC;
 }
 .Dark-mode-icon {
   width: 30px;

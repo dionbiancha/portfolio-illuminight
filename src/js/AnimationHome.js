@@ -51,7 +51,9 @@ export function rightOnAnimation() {
   document.getElementById("Left").style.zIndex = '1';
   document.getElementById("Right").style.zIndex = '2';
   document.getElementById("Github").style.opacity = '0';
+  document.getElementById("Github").style.transitionDuration = '1s';
   document.getElementById("Linkedin").style.opacity = '0';
+  document.getElementById("Linkedin").style.transitionDuration = '1s';
 }
 export function rightOffAnimation() {
   document.getElementById("More-right").style.opacity = '0';

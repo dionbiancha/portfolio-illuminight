@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
+
+.Container {
+  width: 100%;
+}
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+.Main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Text-header {
+  font-family: 'Zilla Slab', serif;
+  margin: 20px;
+  white-space: nowrap;
+  color: #282c34;
+}
+.Text-header  h1 {
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 80px;
+  margin: 10px;
+}
+.Text-header  p, h3 {
+  font-size: 50px;
+  font-weight: normal;
+  margin: 10px;
+}
+.Photo {
+  width: 230px;
+  height: 230px;
+}
+.Social-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.Line-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 1px;
+  background-color: #282c34;
+}
+.Line-text {
+  background-color: #fff;
+  padding: 10px;  
+}
