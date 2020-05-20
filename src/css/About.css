@@ -1,54 +1,140 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
 
-.Container {
-  width: 100%;
-}
-.Header {
+.About{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
+  width: 100%;
+}
+#Header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  margin: 10px;
 }
 .Main-header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 15px;
 }
-.Text-header {
-  font-family: 'Zilla Slab', serif;
-  margin: 20px;
-  white-space: nowrap;
-  color: #282c34;
+.Menu-icon {
+  width: 40px;
+  height: 40px;
+  color: #282C34;
+  transition-duration: 1s;
 }
-.Text-header  h1 {
-  font-size: 100px;
-  font-weight: bold;
-  line-height: 80px;
-  margin: 10px;
-}
-.Text-header  p, h3 {
-  font-size: 50px;
-  font-weight: normal;
-  margin: 10px;
+.Menu-icon:hover {
+  color: #61DAFB;
+  transition-duration: 1s;
 }
 .Photo {
-  width: 230px;
-  height: 230px;
+  width: 250px;
+  height: 250px;
 }
 .Social-header {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 100%;
+}
+.Icons-area {
+  display: flex;
+  flex-direction: row;
   margin-top: 20px;
 }
-.Line-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 1px;
-  background-color: #282c34;
+.Icons {
+  width: 50px;
+  height: 50px;
+  margin: 20px 70px 35px 70px;
+  color: #282c34;
+  transition-duration: 1s;
 }
-.Line-text {
-  background-color: #fff;
-  padding: 10px;  
+.Icons:hover {
+  color: #61DAFB;
+  transition-duration: 1s;
+}
+.Number-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Number {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+#Body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.Title-body {
+  font-weight: bold;
+  margin-top: 100px;
+}
+.About-body {
+  display: flex;
+  flex-direction: row;
+  text-align: right;
+  width: 55%;
+  margin-top: 80px;
+}
+#Body p {
+  font-size: 25px;
+  font-family: 'Zilla Slab', serif;
+  color: #282c34;
+  
+}
+#Body span {
+  font-size: 35px;
+}
+.Photo-about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 20px;
+}
+.Services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+}
+.Services-item {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: left;
+  margin: 10px;
+}
+.Services-item p{
+  font-size: 18px !important;
+  margin: 5px;
+}
+.Item-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Item-flex p{
+  font-weight: bold;
+  font-size: 20px !important; 
+  margin: 0px;
+}
+.Icon-service {
+  width: 25px;
+  height: 25px;
+  margin: 10px;
+}
+#Footer {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  bottom: 0px;
+  background-color: #282c34;
 }

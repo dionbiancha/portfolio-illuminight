@@ -20,7 +20,7 @@ import '../css/Home.css';
 class Home extends Component {
   render() {
     return (
-      <div className="Container">
+      <div className="Home">
         <div className="Dark-mode">
           <BsMoon id="Dark-on"className="Dark-mode-icon" onClick={onDarkTheme}/>
           <IoMdSunny id="Dark-off"className="Dark-mode-icon" style={{color: '#EABF57'}} onClick={offDarkTheme}/>

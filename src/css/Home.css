@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap');
 
 body {
-  overflow: hidden;
+  overflow-x: hidden;
 }
-.Container {
+.Home {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -42,6 +42,7 @@ body {
   width: 30px;
   height: 30px;
   margin: 20px;
+  transition-duration: 1s;
 }
 .Social-icon:hover {
   color: #61DAFB;
@@ -67,6 +68,7 @@ body {
 .Linkedin-icon {
   display: block;
   color: #282c34;
+  transition-duration: 1s;
 }
 .Linkedin-icon-dark {
   display: none;
@@ -89,6 +91,7 @@ body {
   width: 40px;
   height: 40px;
   color: #282c34;
+  transition-duration: 1s;
 }
 .More-left:hover {
   color: #61DAFB;
@@ -103,6 +106,7 @@ body {
   width: 40px;
   height: 40px;
   color: #ECECEC;
+  transition-duration: 1s;
 }
 .More-left-dark:hover {
   color: #61DAFB;
@@ -144,6 +148,7 @@ body {
 }
 .Github-icon {
   color: #ECECEC;
+  transition-duration: 1s;
 }
 
 /*Right animation*/
