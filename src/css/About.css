@@ -11,6 +11,7 @@
   flex-direction: row;
   align-items: center;
   position: fixed;
+  z-index: 300;
   width: 100%;
 }
 .Photo {

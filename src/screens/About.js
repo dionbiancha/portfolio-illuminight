@@ -82,13 +82,13 @@ class About extends Component {
               <img src={Laercio} />
               <h3>Laercio Bubiak</h3>
               <p>"Participamos de alguns projetos em hackatons, e pode 
-                percebe como evolui rápido para aprender uma tecnologia, 
-                além de trabalhar muito bem em equipe auxiliandoos colegas 
-                mais iniciantes ou que não entende muito bem de tal tecnologia. 
-                Me ajudou muito para entender todos conceitos e eu mesmo evoluir 
-                para virar um desenvolvedor FullStack, nunca me deixou 
+                perceber-se como evolui rápido para aprender uma  nova tecnologia, 
+                além de trabalhar muito bem em equipe auxiliando colegas 
+                iniciantes ou que não entendem muito bem de tal tecnologia. 
+                Me ajudou muito para entender todos conceitos e evoluir 
+                para tornar-se um desenvolvedor FullStack, nunca me deixou 
                 na mão, impossivel falar algo ruim de um pessoa que consegue 
-                ser profissional quando precisa, interpessoal e empático!"</p>
+                ser profissional, interpessoal e empático!"</p>
             </div>
             <div className="Depoi-item">
               <img src={Diona} />

@@ -5,19 +5,86 @@
   flex-direction: column;
   align-items: center;
   width: 100%;
+  height: 100vh;
 }
 
-#Header {
+#Header-contact {
   display: flex;
   flex-direction: row;
   align-items: center;
   position: fixed;
+  z-index: 300;
   width: 100%;
 }
 #Body-contact {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
-#Footer {
+#Body-contact p {
+  font-family: 'Zilla Slab', serif;
+}
+.Text-area-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  width: 70%;
+}
+.Text-contact {
+  width: 50%;
+}
+.Text-contact p {
+  text-align: left;
+  font-size: 25px;
+  color: #282c34;
+}
+.Text-contact span {
+  font-size: 40px;
+}
+.Image-contact {
+  width: 50%;
+}
+.Contact-icons-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+.Icon-contact {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  color: #282c34;
+  transition-duration: 1s;
+}
+.Icon-contact:hover {
+  color: #61DAFB;
+  transition-duration: 1s;
+}
+.Mail-area {
+  margin-top: 50px;
+}
+.Mail-area p {
+  font-size: 20px;
+  color: #282c34;
+}
+.Mail-area a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  transition-duration: 1s;
+}
+.Mail-area:hover a {
+  color: #61DAFB;
+  transition-duration: 1s;
+}
+
+#Footer-contact {
+  position: absolute;
   text-align: center;
   width: 100%;
   height: 50px;
@@ -25,7 +92,7 @@
   bottom: 0px;
   background-color: #282c34;
 }
-#Footer p {
+#Footer-contact p {
   font-size: 15px;
   color: #ECECEC;
 }
