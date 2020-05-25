@@ -12,23 +12,6 @@
   align-items: center;
   position: fixed;
   width: 100%;
-  margin: 10px;
-}
-.Main-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 15px;
-}
-.Menu-icon {
-  width: 40px;
-  height: 40px;
-  color: #282C34;
-  transition-duration: 1s;
-}
-.Menu-icon:hover {
-  color: #61DAFB;
-  transition-duration: 1s;
 }
 .Photo {
   width: 250px;
@@ -73,10 +56,14 @@
   align-items: center;
   width: 100%;
 }
-.Title-body {
-  font-weight: bold;
-  margin-top: 100px;
+.Area-title {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  border-bottom: 3px solid #282C34;
+  margin-bottom: 20px;
 }
+
 .About-body {
   display: flex;
   flex-direction: row;
@@ -89,6 +76,14 @@
   font-family: 'Zilla Slab', serif;
   color: #282c34;
   
+}
+#Body h2 {
+  font-size: 30px;
+  font-family: 'Zilla Slab', serif;
+  color: #282c34;
+  font-weight: bold;
+  margin-top: 100px;
+  margin-bottom: 20px;
 }
 #Body span {
   font-size: 35px;
@@ -103,6 +98,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 80px;
   width: 70%;
 }
 .Services-item {
@@ -113,7 +109,11 @@
   margin: 10px;
 }
 .Services-item p{
-  font-size: 18px !important;
+  font-size: 20px !important;
+  margin: 5px;
+}
+.Services-item h3{
+  font-size: 20px !important;
   margin: 5px;
 }
 .Item-flex {
@@ -131,10 +131,42 @@
   height: 25px;
   margin: 10px;
 }
+#Divisor {
+  width: 100%;
+  height: 10px;
+  margin-top: 50px;
+  -webkit-box-shadow: 0px 6px 5px 0px rgba(50, 50, 50, 0.19);
+  -moz-box-shadow:    0px 6px 5px 0px rgba(50, 50, 50, 0.19);
+  box-shadow:         0px 6px 5px 0px rgba(50, 50, 50, 0.19);
+}
+.Area-depoi {
+  width: 70%;
+}
+.Depoi-item {
+  text-align: center;
+}
+.Depoi-item h3 {
+  margin-top: 50px;
+  font-size: 25px;
+}
+.Depoi-item p {
+  font-style: italic;
+  font-size: 20px !important;
+}
+.Depoi-item img {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
 #Footer {
+  text-align: center;
   width: 100%;
   height: 50px;
-  margin-top: 30px;
+  margin-top: 50px;
   bottom: 0px;
   background-color: #282c34;
+}
+#Footer p {
+  font-size: 15px;
+  color: #ECECEC;
 }

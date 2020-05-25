@@ -1,0 +1,61 @@
+.Main-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Menu-icon {
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  color: #282C34;
+  transition-duration: 1s;
+}
+.Menu-icon:hover {
+  color: #61DAFB;
+  transition-duration: 1s;
+}
+#Main-header-click {
+  width: 25%;
+  height: 100vh;
+  background-color: #282C34;
+  transition-duration: 1s;
+  position: absolute;
+  left: -25%;
+  top: 0px;
+}
+.Menu-icon-click {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin: 15px;
+  color: #ECECEC;
+  transition-duration: 1s;
+}
+.Menu-icon-click:hover {
+  color: #61DAFB;
+  transition-duration: 1s;
+}
+.Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.Menu li {
+  list-style-type: none;
+  margin-bottom: 30px;
+  font-size: 25px;
+  color: #ECECEC;
+}
+.Menu ul {
+  margin: 0px;
+}
+.Link {
+  text-decoration: none;
+  color: inherit;
+  transition-duration: 1s;
+}
+.Link:hover {
+  color: #61DAFB;
+  transition-duration: 1s;
+}
