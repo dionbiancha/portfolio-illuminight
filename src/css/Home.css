@@ -2,6 +2,10 @@
 
 body {
   overflow-x: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: -moz-none;
+  -ms-user-select: none;
+   user-select: none;
 }
 .Home {
   width: 100%;
@@ -176,5 +180,18 @@ body {
   }
   .Right-animation {
     display: none;
+  }
+}
+@media (max-width: 600px) {
+  .Text-container h1 {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 0px;
+  }
+  .Text-container p, h3 {
+    font-size: 35px;
+    font-weight: normal;
+    margin: 3px 3px 3px 0px;
   }
 }
