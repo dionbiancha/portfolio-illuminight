@@ -34,6 +34,7 @@ class Home extends Component {
               >
               </div>
             </Link>
+            <Link to="/about" className="Mobile-enter"></Link>
             <div id="Text-left" className="Text-container">
               <p>Olá, eu me chamo</p>
               <p>
@@ -58,6 +59,7 @@ class Home extends Component {
               > 
               </div>
             </Link>
+            <Link to="/jobs" className="Mobile-enter"></Link>
             <div id="Text-right" className="Text-container">
               <h1>Portfolio</h1>
               <p>
