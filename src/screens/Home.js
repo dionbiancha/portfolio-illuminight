@@ -27,15 +27,13 @@ class Home extends Component {
         </div>
         <div className="Flexbox">
           <div id="Left" className="Left Content-container">
-            <div className="Left-animation" 
-              onMouseEnter={leftOnAnimation}
-              onMouseLeave={leftOffAnimation}
-            >
-              <Link to="/about">
-                <MdMore id="More-left" className="More-left"/>
-                <MdMore id="More-left-dark" className="More-left-dark"/>
-                </Link>
-            </div>
+            <Link to="/about">
+              <div className="Left-animation" 
+                onMouseEnter={leftOnAnimation}
+                onMouseLeave={leftOffAnimation}
+              >
+              </div>
+            </Link>
             <div id="Text-left" className="Text-container">
               <p>Olá, eu me chamo</p>
               <p>
@@ -53,13 +51,13 @@ class Home extends Component {
             </div>
           </div>
           <div id="Right" className="Right Content-container">
-            <div className="Right-animation" 
-              onMouseEnter={rightOnAnimation}
-              onMouseLeave={rightOffAnimation}
-            >
-              <MdMore id="More-right" className="More-right" />
-              <div id="Suport-right"className="Suport-right" onMouseEnter={rightOnAnimation}></div>
-            </div>
+            <Link to="/jobs">
+              <div className="Right-animation" 
+                onMouseEnter={rightOnAnimation}
+                onMouseLeave={rightOffAnimation}
+              > 
+              </div>
+            </Link>
             <div id="Text-right" className="Text-container">
               <h1>Portfolio</h1>
               <p>

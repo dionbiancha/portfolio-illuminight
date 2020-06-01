@@ -7,8 +7,6 @@ export function onDarkTheme() {
   document.getElementById("Dark-off").style.display = 'block'; 
   document.getElementById("Linkedin-icon").style.display = 'none'; 
   document.getElementById("Linkedin-icon-dark").style.display = 'block';
-  document.getElementById("More-left").style.display = 'none'; 
-  document.getElementById("More-left-dark").style.display = 'block';
 }
 
 export function offDarkTheme() {
@@ -19,6 +17,4 @@ export function offDarkTheme() {
   document.getElementById("Dark-off").style.display = 'none';
   document.getElementById("Linkedin-icon").style.display = 'block'; 
   document.getElementById("Linkedin-icon-dark").style.display = 'none';
-  document.getElementById("More-left").style.display = 'block'; 
-  document.getElementById("More-left-dark").style.display = 'none';
 }

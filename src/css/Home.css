@@ -81,37 +81,6 @@ body {
   height: 450px;
   width: 350px;
 }
-.More-left {
-  display: block;
-  position: absolute;
-  transform: rotateY(180deg);
-  margin-top: 110%;
-  margin-left: -40%;
-  opacity: 0;
-  width: 40px;
-  height: 40px;
-  color: #282c34;
-  transition-duration: 1s;
-}
-.More-left:hover {
-  color: #61DAFB;
-  transition-duration: 1s;
-}
-.More-left-dark {
-  display: none;
-  position: absolute;
-  margin-top: 110%;
-  margin-left: -40%;
-  opacity: 0;
-  width: 40px;
-  height: 40px;
-  color: #ECECEC;
-  transition-duration: 1s;
-}
-.More-left-dark:hover {
-  color: #61DAFB;
-  transition-duration: 1s;
-}
 
 /*Right*/
 .Right {
@@ -157,24 +126,6 @@ body {
   height: 450px;
   width: 350px;
   right: 0px;
-}
-.More-right{
-  display: block;
-  position: absolute;
-  transform: rotateY(180deg);
-  margin-top: 110%;
-  margin-left: 72%;
-  opacity: 0;
-  transition-duration: 1s;
-  width: 40px;
-  height: 40px;
-  z-index: 300;
-  color: #ECECEC;
-}
-.More-right:hover {
-  opacity: 1;
-  color: #61DAFB;
-  transition-duration: 1s;
 }
 .Suport-right {
   display: none;
