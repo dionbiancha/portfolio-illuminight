@@ -9,7 +9,7 @@ import Portfolio from './screens/Portfolio';
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact={true} path="/portfolio" component={Home} />
+      <Route exact={true} path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
       <Route path="/jobs" component={Portfolio} />

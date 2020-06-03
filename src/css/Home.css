@@ -148,7 +148,7 @@ body {
 }
 
 @media (max-width: 1000px) {
-  body {
+  .Home {
     overflow-x: hidden;
     overflow-y: hidden;
   }
