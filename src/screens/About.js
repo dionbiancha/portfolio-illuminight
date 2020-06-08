@@ -11,9 +11,9 @@ import '../css/About.css';
 
 import LateralMenu from '../components/LateralMenu';
 
-import photo from '../images/photo.png';
-import Laercio from '../images/Laercio.png';
-import Diona from '../images/Diona.png';
+import fabio from '../images/fabio.png';
+import miguel from '../images/miguel.png';
+import carlos from '../images/carlos.png';
 
 class About extends Component {
   render() {
@@ -32,14 +32,14 @@ class About extends Component {
        <body id="Body">
          <div className="About-body">
           <p> 
-            <b><span>P</span>razer em conhece-lo!</b> Sou Dionei Bianchati, tenho 24 anos 
-           e vivo atualmente em Missal, uma pequena cidadezinha no interior 
-           do Paraná. Estou na area de programação Web e Mobile a cerca 
-           de 1 ano, acumulnado experiência em diversas tecnologias 
+            <b><span>P</span>razer em conhece-lo!</b> Sou Fabio Baldocchi, tenho 28 anos 
+           e vivo atualmente em Florianópolis, uma cidade situada no litoral de
+           Santa Catarina. Estou na area de programação Web e Mobile a cerca 
+           de 5 anos, acumulando experiência em diversas tecnologias 
            entre as quais se destacam <b>React.js</b> e <b>React Native</b>.
           </p>
           <div className="Photo-about">
-            <img className="Photo" src={photo}/>
+            <img className="Photo" src={fabio}/>
           </div>
          </div>
           <div className="Services">
@@ -79,8 +79,8 @@ class About extends Component {
          <div className="Area-depoi">
           <Slider { ...settings }>
             <div className="Depoi-item">
-              <img src={Laercio} />
-              <h3>Laercio Bubiak</h3>
+              <img src={miguel} />
+              <h3>Carlos de Lima</h3>
               <p>"Participamos de alguns projetos em hackatons, e pode 
                 perceber-se como evolui rápido para aprender uma  nova tecnologia, 
                 além de trabalhar muito bem em equipe auxiliando colegas 
@@ -91,9 +91,9 @@ class About extends Component {
                 ser profissional, interpessoal e empático!"</p>
             </div>
             <div className="Depoi-item">
-              <img src={Diona} />
-              <h3>Dionata Savi</h3>
-              <p>"Baseado na experiencia que tivemos em projetos, Dionei é 
+              <img src={carlos} />
+              <h3>Miguel Ramos</h3>
+              <p>"Baseado na experiencia que tivemos em projetos, Fabio é 
                 uma pessoa que trabalha muito bem em equipe, está sempre 
                 disposto a aprender e debater ideias, se dedica 100% aos 
                 projetos e sempre prezando pela qualidade das entregas."</p>

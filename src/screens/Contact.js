@@ -44,23 +44,23 @@ class Contact extends Component {
             ter um bom papo, terei prazer em responder!
             </p>
             <div style={{marginLeft: '-10px'}}>
-              <a href="https://www.facebook.com/dionbiancha">
+              <a href="https://www.facebook.com/fabiobaldocchi">
                 <FaFacebookF className="Icon-contact"/>
               </a>
-              <a href="https://www.instagram.com/dionbiancha">
+              <a href="https://www.instagram.com/fabiobaldocchi">
                 <FaInstagram className="Icon-contact"/>
               </a>
-              <a href="https://www.linkedin.com/in/dionbiancha/">
+              <a href="https://www.linkedin.com/in/fabiobaldocchi/">
                 <FaLinkedinIn className="Icon-contact"/>      
               </a>
-              <a href="https://github.com/dionbiancha">
+              <a href="https://github.com/fabiobaldocchi">
                 <FaGithub className="Icon-contact"/>
               </a>
             </div>
           </div>
         </div>
         <div className="Mail-area">
-          <p>Se preferir mande um email para <a href="mailto:dion.biancha@gmail.com">dion.biancha@gmail.com</a></p>
+          <p>Se preferir mande um email para <a href="mailto:contato@fabio.com">contato@fabio.com</a></p>
         </div>
        </body>
        <footer id="Footer-contact"> 

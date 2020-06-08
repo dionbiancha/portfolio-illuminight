@@ -4,7 +4,6 @@ import {
   FaLinkedinIn,
   FaGithubAlt  
 } from 'react-icons/fa';
-import { MdMore } from 'react-icons/md';
 import { BsMoon } from 'react-icons/bs';
 import { IoMdSunny } from 'react-icons/io';
 
@@ -38,14 +37,14 @@ class Home extends Component {
             <div id="Text-left" className="Text-container">
               <p>Olá, eu me chamo</p>
               <p>
-                <h1>Dionei</h1>
+                <h1>Fabio</h1>
               </p>
               <p>
-                <h1>Bianchati.</h1>
+                <h1>Baldocchi.</h1>
               </p>
             </div>
             <div id="Linkedin" className="Social Linkedin">
-              <a href="https://www.linkedin.com/in/dionbiancha/">
+              <a href="https://www.linkedin.com/in/fabiobaldocchi/">
                 <FaLinkedinIn id="Linkedin-icon" className="Social-icon Linkedin-icon"/>
                 <FaLinkedinIn id="Linkedin-icon-dark" className="Social-icon Linkedin-icon-dark"/>
               </a>
@@ -70,7 +69,7 @@ class Home extends Component {
               </p>
             </div>
             <div id="Github" className="Social Github">
-              <a href="https://github.com/dionbiancha/">
+              <a href="https://github.com/fabiobaldocchi/">
                 <FaGithubAlt className="Social-icon Github-icon" id="Github-icon"/>
               </a>
             </div>

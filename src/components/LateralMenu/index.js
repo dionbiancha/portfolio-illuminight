@@ -27,7 +27,7 @@ export default class LateralMenu extends Component {
           <MdViewHeadline className="Menu-icon-click" onClick={this.InactiveMenu}/>
           <div className="Menu">
             <ul>
-              <li><Link to="/" className="Link">Home</Link></li>
+              <li><Link to="/portfolio" className="Link">Home</Link></li>
               <li><Link to="/about" className="Link">Sobre</Link></li>
               <li><Link to="/jobs" className="Link">Portfolio</Link></li>
               <li><Link to="/contact" className="Link">Contato</Link></li>
