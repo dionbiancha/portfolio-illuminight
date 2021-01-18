@@ -102,7 +102,7 @@ class About extends Component {
         </div>
        </body>
        <footer id="Footer"> 
-         <p>Desenvolvido por Dionei Bianchati - Alguns direitos reservados</p>
+         <p>Desenvolvido por Dionei Bianchati</p>
        </footer>
       </div>
     );

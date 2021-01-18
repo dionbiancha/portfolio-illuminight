@@ -64,7 +64,7 @@ class Contact extends Component {
         </div>
        </body>
        <footer id="Footer-contact"> 
-         <p>Desenvolvido por Dionei Bianchati - Alguns direitos reservados</p>
+         <p>Desenvolvido por Dionei Bianchati</p>
        </footer>
       </div>
     );

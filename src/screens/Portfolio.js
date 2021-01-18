@@ -31,7 +31,7 @@ class Portfolio extends Component {
          </div>
        </body>
        <footer id="Footer-portfolio"> 
-         <p>Desenvolvido por Dionei Bianchati - Alguns direitos reservados</p>
+         <p>Desenvolvido por Dionei Bianchati</p>
        </footer>
       </div>
     );
