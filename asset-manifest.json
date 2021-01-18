@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/portfolio-illuminight/static/css/main.d8795c28.chunk.css",
-    "main.js": "/portfolio-illuminight/static/js/main.3b8d5a5d.chunk.js",
-    "main.js.map": "/portfolio-illuminight/static/js/main.3b8d5a5d.chunk.js.map",
+    "main.js": "/portfolio-illuminight/static/js/main.d47b2949.chunk.js",
+    "main.js.map": "/portfolio-illuminight/static/js/main.d47b2949.chunk.js.map",
     "runtime-main.js": "/portfolio-illuminight/static/js/runtime-main.d0d92219.js",
     "runtime-main.js.map": "/portfolio-illuminight/static/js/runtime-main.d0d92219.js.map",
     "static/css/2.05a0ae32.chunk.css": "/portfolio-illuminight/static/css/2.05a0ae32.chunk.css",
     "static/js/2.8dc61cb8.chunk.js": "/portfolio-illuminight/static/js/2.8dc61cb8.chunk.js",
     "static/js/2.8dc61cb8.chunk.js.map": "/portfolio-illuminight/static/js/2.8dc61cb8.chunk.js.map",
     "index.html": "/portfolio-illuminight/index.html",
-    "precache-manifest.913445bc6d9325c2b2daa913d3845f97.js": "/portfolio-illuminight/precache-manifest.913445bc6d9325c2b2daa913d3845f97.js",
+    "precache-manifest.930b7ca6baa307a8d1474b60df39bca6.js": "/portfolio-illuminight/precache-manifest.930b7ca6baa307a8d1474b60df39bca6.js",
     "service-worker.js": "/portfolio-illuminight/service-worker.js",
     "static/css/2.05a0ae32.chunk.css.map": "/portfolio-illuminight/static/css/2.05a0ae32.chunk.css.map",
     "static/css/main.d8795c28.chunk.css.map": "/portfolio-illuminight/static/css/main.d8795c28.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.05a0ae32.chunk.css",
     "static/js/2.8dc61cb8.chunk.js",
     "static/css/main.d8795c28.chunk.css",
-    "static/js/main.3b8d5a5d.chunk.js"
+    "static/js/main.d47b2949.chunk.js"
   ]
 }

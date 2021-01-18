@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a08ed98b08e8501b274703584b6de0cb",
+    "revision": "0224ce5360550afc241f0095c0cba699",
     "url": "/portfolio-illuminight/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-illuminight/static/css/2.05a0ae32.chunk.css"
   },
   {
-    "revision": "64b8dbbb6ad654947ed9",
+    "revision": "6cfa7b3faf4fca3b78ed",
     "url": "/portfolio-illuminight/static/css/main.d8795c28.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio-illuminight/static/js/2.8dc61cb8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "64b8dbbb6ad654947ed9",
-    "url": "/portfolio-illuminight/static/js/main.3b8d5a5d.chunk.js"
+    "revision": "6cfa7b3faf4fca3b78ed",
+    "url": "/portfolio-illuminight/static/js/main.d47b2949.chunk.js"
   },
   {
     "revision": "e137418c8f8497f89128",
