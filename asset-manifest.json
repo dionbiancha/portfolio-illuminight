@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portfolio-illuminight/static/css/main.d8795c28.chunk.css",
-    "main.js": "/portfolio-illuminight/static/js/main.d47b2949.chunk.js",
-    "main.js.map": "/portfolio-illuminight/static/js/main.d47b2949.chunk.js.map",
+    "main.js": "/portfolio-illuminight/static/js/main.28f9c7f4.chunk.js",
+    "main.js.map": "/portfolio-illuminight/static/js/main.28f9c7f4.chunk.js.map",
     "runtime-main.js": "/portfolio-illuminight/static/js/runtime-main.d0d92219.js",
     "runtime-main.js.map": "/portfolio-illuminight/static/js/runtime-main.d0d92219.js.map",
     "static/css/2.05a0ae32.chunk.css": "/portfolio-illuminight/static/css/2.05a0ae32.chunk.css",
-    "static/js/2.8dc61cb8.chunk.js": "/portfolio-illuminight/static/js/2.8dc61cb8.chunk.js",
-    "static/js/2.8dc61cb8.chunk.js.map": "/portfolio-illuminight/static/js/2.8dc61cb8.chunk.js.map",
+    "static/js/2.bcbdd1d2.chunk.js": "/portfolio-illuminight/static/js/2.bcbdd1d2.chunk.js",
+    "static/js/2.bcbdd1d2.chunk.js.map": "/portfolio-illuminight/static/js/2.bcbdd1d2.chunk.js.map",
     "index.html": "/portfolio-illuminight/index.html",
-    "precache-manifest.930b7ca6baa307a8d1474b60df39bca6.js": "/portfolio-illuminight/precache-manifest.930b7ca6baa307a8d1474b60df39bca6.js",
+    "precache-manifest.77578de407a18fe299bc2ea312797325.js": "/portfolio-illuminight/precache-manifest.77578de407a18fe299bc2ea312797325.js",
     "service-worker.js": "/portfolio-illuminight/service-worker.js",
     "static/css/2.05a0ae32.chunk.css.map": "/portfolio-illuminight/static/css/2.05a0ae32.chunk.css.map",
     "static/css/main.d8795c28.chunk.css.map": "/portfolio-illuminight/static/css/main.d8795c28.chunk.css.map",
-    "static/js/2.8dc61cb8.chunk.js.LICENSE.txt": "/portfolio-illuminight/static/js/2.8dc61cb8.chunk.js.LICENSE.txt",
+    "static/js/2.bcbdd1d2.chunk.js.LICENSE.txt": "/portfolio-illuminight/static/js/2.bcbdd1d2.chunk.js.LICENSE.txt",
     "static/media/carlos.png": "/portfolio-illuminight/static/media/carlos.8ab2d2f0.png",
     "static/media/fabio.png": "/portfolio-illuminight/static/media/fabio.4c222332.png",
     "static/media/miguel.png": "/portfolio-illuminight/static/media/miguel.6f6e2b81.png"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.d0d92219.js",
     "static/css/2.05a0ae32.chunk.css",
-    "static/js/2.8dc61cb8.chunk.js",
+    "static/js/2.bcbdd1d2.chunk.js",
     "static/css/main.d8795c28.chunk.css",
-    "static/js/main.d47b2949.chunk.js"
+    "static/js/main.28f9c7f4.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/portfolio-illuminight/precache-manifest.930b7ca6baa307a8d1474b60df39bca6.js"
+  "/portfolio-illuminight/precache-manifest.77578de407a18fe299bc2ea312797325.js"
 );
 
 self.addEventListener('message', (event) => {
